@@ -20,9 +20,13 @@ This interactive dashboard allows you to explore global video game sales trends 
 Use the filters on the left to explore different segments of the market!.
 """)
 
+from pathlib import Path
+
 @st.cache_data
 def load_data():
-    df = pd.read_csv("../data/Video_Game_Sales_as_of_Jan_2017.csv")
+    base_path = Path(__file__).resolve().parent.parent
+    data_path = base_path / "data" / "Video_Game_Sales_as_of_Jan_2017.csv"
+    df = pd.read_csv(data_path)
     return df
 
 df = load_data()
