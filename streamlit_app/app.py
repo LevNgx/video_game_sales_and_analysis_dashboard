@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
+st.write("🚀 App is starting...")
 st.set_page_config(
     page_title="Video Game Sales Dashboard",
     layout="wide"
