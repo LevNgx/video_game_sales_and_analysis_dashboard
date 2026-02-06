@@ -38,7 +38,7 @@ It combines exploratory data analysis with an interactive Streamlit dashboard.
 ## 🚀 Streamlit Dashboard
 
 🔗 **Live Dashboard:**  
-👉 https://videogamesalesandanalysisdashboard-9mwvjk2zlw2jajgviaoqjy.streamlit.app/
+👉 https://videogamesalesandanalysisdashboard-mbn7axdsgfnh6prhbqrsrd.streamlit.app/
 
 ### Dashboard Features
 - Interactive filters (Year, Platform, Genre)
